@@ -7,3 +7,4 @@ class로 만들었기때문에 import / export로 쓰셔도 좋아요!
 
 1. Click Event 이벤트 위임방식
 2. Tab Menu 이벤트 위임방식
+3. Smooth Scroll
