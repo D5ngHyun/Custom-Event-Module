@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 100px 0 30px 0;
+    border-bottom: 1px solid #dedede; 
+}
+
+.tabs { 
+    margin-top: 50px;
+}
+
+.tabs__btns { 
+    display: flex;
+}
+
+.tabs__btns li {
+    width: 200px;
+    height: 48px;
+    background: rgb(33, 96, 100);
+    color: #fff;
+}
+
+.tabs__btns li.active {
+    background: rgb(0, 54, 126);
+    color: #fff; 
+}
+
+.tabs__btns li + li {
+    margin-left: 20px; 
+}
+
+.tabs__btns li button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+
+.tabs__contents {
+    margin: 50px 0 0 0; 
+    border: 1px solid #dedede; 
+}
+
+.tabs__contents li {
+    padding: 50px 30px;
+}
+
+.tabs__contents li h1 {
+    font-size: 25px;
+}
+
+.tabs__contents li p {
+    font-size: 16px;
+    color: #767676;
+    margin-top: 10px
+}
+
+.tabs__contents li {
+    display: none; 
+}
+
+.tabs__contents li.active {
+    display: block;
+}
